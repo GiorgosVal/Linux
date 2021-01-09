@@ -1,0 +1,549 @@
+2021-01-09 11:38:41.867313149 [DEBUG] >: Started the script with the following configuration:
+2021-01-09 11:38:41.871539525 [DEBUG] >: MODE: disable
+2021-01-09 11:38:41.875107392 [DEBUG] >: REMOVE_HOME: false
+2021-01-09 11:38:41.880668495 [DEBUG] >: ARCHIVE: false
+2021-01-09 11:38:41.884335396 [DEBUG] >: ARCHIVE_FORMAT : gz
+2021-01-09 11:38:41.887529061 [DEBUG] >: ARCHIVE_DIR : /archives
+2021-01-09 11:38:41.894073085 [DEBUG] >: VERBOSE_LEVEL: 1
+2021-01-09 11:38:41.900833056 [DEBUG] >: USERNAMES: mario
+2021-01-09 11:38:41.905361235 [INFO] >: ***** Starting processing the user 'mario'. *****
+2021-01-09 11:38:41.909479509 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 11:38:41.916227554 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 11:38:41.919950914 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 11:38:41.924290896 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 11:38:41.927443883 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 11:38:41.931640955 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 11:38:41.934990275 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 11:38:41.945860596 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 11:38:41.949679112 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 11:38:41.953025862 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 11:38:41.957562550 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 11:38:41.969660641 [DEBUG] >: check_if_user_is_active >: The user mario expires 'never', which is '' days since Jan 01, 1970.
+2021-01-09 11:38:41.974277298 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 0.
+2021-01-09 11:38:41.985087731 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 0.
+2021-01-09 11:38:41.994946030 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to true.
+2021-01-09 11:38:41.999281757 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 11:38:42.004215688 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 11:38:42.008655620 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 11:38:42.012776521 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 11:38:42.017051573 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 11:38:42.022253099 [DEBUG] >: process_user >: process_user start.
+2021-01-09 11:38:42.029732930 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 11:38:42.033835017 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 11:38:42.037187865 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 11:38:42.041787939 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = true.
+2021-01-09 11:38:42.044291319 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 11:38:42.049327587 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 11:38:42.053786385 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 11:38:42.058419561 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 11:38:42.062281001 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 1
+2021-01-09 11:38:42.065850590 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 11:38:42.068589850 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 11:38:42.072401703 [INFO] >: process_user >: Will disable the user 'mario'.
+2021-01-09 11:38:42.091640576 [INFO] >: process_user >: The user 'mario' was disabled.
+2021-01-09 11:38:42.097177155 [DEBUG] >: process_user >: process_user end.
+2021-01-09 11:38:42.102021479 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 11:38:42.105685111 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 11:38:42.110034828 [INFO] >: ***** Finished processing the user 'mario'. *****
+2021-01-09 11:38:42.115940178 [INFO] >: Finished processing of all users.
+2021-01-09 11:43:39.483179130 [DEBUG] >:  Started the script with the following configuration:
+2021-01-09 11:43:39.487591756 [DEBUG] >:  MODE: disable
+2021-01-09 11:43:39.492409643 [DEBUG] >:  REMOVE_HOME: false
+2021-01-09 11:43:39.495620609 [DEBUG] >:  ARCHIVE: false
+2021-01-09 11:43:39.504992274 [DEBUG] >:  ARCHIVE_FORMAT : gz
+2021-01-09 11:43:39.510187035 [DEBUG] >:  ARCHIVE_DIR : /archives
+2021-01-09 11:43:39.516015403 [DEBUG] >:  VERBOSE_LEVEL: 1
+2021-01-09 11:43:39.523149056 [DEBUG] >:  USERNAMES: mario
+2021-01-09 11:43:39.527804540 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 11:43:39.535117170 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 11:43:39.540842114 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 11:43:39.546093311 [DEBUG] >: resore_defaults >: wrapper_function >: wrapper_function start.
+2021-01-09 11:43:39.555690658 [DEBUG] >: resore_defaults >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 11:43:39.560429274 [DEBUG] >: resore_defaults >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 11:43:39.564317926 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 11:43:39.573717894 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 11:43:39.583389145 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 11:43:39.586667194 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 11:43:39.589828699 [DEBUG] >: resore_defaults >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 11:43:39.594153816 [DEBUG] >: resore_defaults >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 11:43:39.609381365 [DEBUG] >: resore_defaults >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 11:43:39.612229747 [DEBUG] >: resore_defaults >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 11:43:39.615395757 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 11:43:39.618477378 [INFO] >: resore_defaults >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 11:43:39.621398118 [INFO] >: resore_defaults >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 11:43:39.624767653 [INFO] >: resore_defaults >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 11:43:39.628985313 [DEBUG] >: resore_defaults >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 11:43:39.638124421 [DEBUG] >: resore_defaults >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 11:43:39.640939489 [DEBUG] >: resore_defaults >: wrapper_function >: Calling function process_user.
+2021-01-09 11:43:39.644082948 [DEBUG] >: resore_defaults >: process_user >: process_user start.
+2021-01-09 11:43:39.648209785 [DEBUG] >: resore_defaults >: process_user >: Calling infer_process_mode.
+2021-01-09 11:43:39.652309362 [DEBUG] >: resore_defaults >: infer_process_mode >: infer_process_mode start.
+2021-01-09 11:43:39.655413236 [DEBUG] >: resore_defaults >: infer_process_mode >: MODE = disable.
+2021-01-09 11:43:39.658870191 [DEBUG] >: resore_defaults >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 11:43:39.662558651 [DEBUG] >: resore_defaults >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 11:43:39.671212917 [DEBUG] >: resore_defaults >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 11:43:39.674806131 [DEBUG] >: resore_defaults >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 11:43:39.677412098 [DEBUG] >: resore_defaults >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 11:43:39.680581786 [INFO] >: resore_defaults >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 11:43:39.683770288 [DEBUG] >: resore_defaults >: infer_process_mode >: infer_process_mode end.
+2021-01-09 11:43:39.686977302 [DEBUG] >: resore_defaults >: process_user >: Returned from infer_process_mode.
+2021-01-09 11:43:39.690187637 [INFO] >: resore_defaults >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 11:43:39.694453005 [DEBUG] >: resore_defaults >: wrapper_function >: Returned from function process_user.
+2021-01-09 11:43:39.705459454 [DEBUG] >: resore_defaults >: wrapper_function >: wrapper_function end.
+2021-01-09 11:43:39.709630524 [INFO] >: resore_defaults >: ***** Finished processing the user 'mario'. *****
+2021-01-09 11:43:39.713442907 [INFO] >: resore_defaults >: Finished processing of all users.
+2021-01-09 11:59:06.250089113 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 11:59:06.254333458 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 11:59:06.258309097 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 11:59:06.262635885 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 11:59:06.266202123 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 11:59:06.269214116 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 11:59:06.272706555 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 11:59:06.276090324 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 11:59:06.285286801 [INFO] >: show_config >: ***** Starting processing the user 'mario'. *****
+2021-01-09 11:59:06.290282023 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 11:59:06.294364702 [DEBUG] >:  resore_defaults end.
+2021-01-09 11:59:06.301971296 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 11:59:06.308174281 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 11:59:06.312778214 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 11:59:06.317875438 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 11:59:06.320469455 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 11:59:06.331087746 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 11:59:06.334398159 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 11:59:06.339635976 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 11:59:06.342439568 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 11:59:06.355265105 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 11:59:06.358217883 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 11:59:06.361353304 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 11:59:06.364826159 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 11:59:06.367993748 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 11:59:06.372656788 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 11:59:06.376728725 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 11:59:06.383052122 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 11:59:06.385958358 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 11:59:06.389378735 [DEBUG] >: process_user >: process_user start.
+2021-01-09 11:59:06.392094406 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 11:59:06.395418795 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 11:59:06.398839691 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 11:59:06.402298739 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 11:59:06.407104514 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 11:59:06.410675183 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 11:59:06.414550689 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 11:59:06.418838842 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 11:59:06.422283015 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 11:59:06.425159273 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 11:59:06.429951927 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 11:59:06.435114724 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 11:59:06.439141435 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 11:59:06.442682169 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 11:59:06.446990970 [INFO] >: wrapper_function >: ***** Finished processing the user 'mario'. *****
+2021-01-09 11:59:06.452201304 [INFO] >: wrapper_function >: Finished processing of all users.
+2021-01-09 12:00:44.783210259 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:00:44.786275206 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:00:44.789941589 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:00:44.799963540 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:00:44.811571037 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:00:44.835958311 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:00:44.849266454 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:00:44.857945461 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 12:00:44.863670023 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:00:44.868397611 [DEBUG] >:  resore_defaults end.
+2021-01-09 12:00:44.874122242 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 12:00:44.877498385 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:00:44.881082896 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:00:44.891242982 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:00:44.894473043 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:00:44.903267305 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:00:44.919501173 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:00:44.923140672 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:00:44.926476350 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:00:44.929283732 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:00:44.943117297 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:00:44.946356744 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:00:44.954644928 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:00:44.959884766 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:00:44.962678151 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:00:44.966302467 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:00:44.971640795 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:00:44.975900667 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:00:44.978762458 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:00:44.986079503 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:00:44.989443820 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:00:44.993484074 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:00:44.997055389 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:00:45.002448922 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:00:45.007354149 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:00:45.010346247 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:00:45.013212682 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:00:45.020127502 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:00:45.023850946 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:00:45.027447595 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:00:45.030521343 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:00:45.035875961 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:00:45.040602369 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:00:45.043822225 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:00:45.048705370 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:00:45.055896456 [INFO] >:  Finished processing of all users.
+2021-01-09 12:03:03.432200321 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:03:03.435693383 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:03:03.438384302 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:03:03.441061617 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:03:03.444701710 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:03:03.448371722 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:03:03.457639803 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:03:03.460801689 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 12:03:03.464270429 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:03:03.473735147 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:03:03.477143855 [INFO] >: resore_defaults >: ***** Starting processing the user 'mario'. *****
+2021-01-09 12:03:03.481003109 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:03:03.485388931 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:03:03.489656769 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:03:03.494127117 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:03:03.497008852 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:03:03.509906980 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:03:03.513221696 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:03:03.517794336 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:03:03.521724047 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:03:03.532808987 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:03:03.539043285 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:03:03.542319590 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:03:03.545823917 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:03:03.551123798 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:03:03.554844576 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:03:03.557523012 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:03:03.560641717 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:03:03.563415443 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:03:03.566870332 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:03:03.574010819 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:03:03.577025808 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:03:03.581676937 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:03:03.588592753 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:03:03.591320296 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:03:03.594174819 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:03:03.597292375 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:03:03.600800664 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:03:03.606941533 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:03:03.610000496 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:03:03.614324463 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:03:03.622829078 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:03:03.626752474 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:03:03.629393022 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:03:03.632992137 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:03:03.636178710 [INFO] >:  Finished processing of all users.
+2021-01-09 12:03:55.430888929 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:03:55.433767764 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:03:55.437550332 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:03:55.440476111 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:03:55.444463898 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:03:55.447522849 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:03:55.452084865 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:03:55.458931343 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 12:03:55.463225999 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:03:55.466768998 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:03:55.471819379 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 12:03:55.477276441 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:03:55.481280350 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:03:55.489493293 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:03:55.496293192 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:03:55.499567816 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:03:55.510116746 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:03:55.513896321 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:03:55.517856105 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:03:55.523677673 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:03:55.533703897 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:03:55.536918810 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:03:55.539613389 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:03:55.544063916 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:03:55.547651242 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:03:55.551268054 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:03:55.558327345 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:03:55.561245877 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:03:55.564203643 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:03:55.567055799 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:03:55.570069838 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:03:55.572955642 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:03:55.576163028 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:03:55.579895307 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:03:55.583744608 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:03:55.589074774 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:03:55.594061672 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:03:55.596907800 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:03:55.600243901 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:03:55.603203006 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:03:55.605975566 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:03:55.609067814 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:03:55.613266670 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:03:55.616741499 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:03:55.622092674 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:03:55.630578970 [INFO] >:  Finished processing of all users.
+2021-01-09 12:06:03.605131557 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:06:03.610704052 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:06:03.614902722 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:06:03.619918033 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:06:03.623232063 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:06:03.627627823 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:06:03.631484091 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:06:03.635249868 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 12:06:03.640189877 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:06:03.652383763 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:06:03.655666837 [INFO] >:  >---> ... ***** Starting processing the user 'mario'. ***** ... <---<
+2021-01-09 12:06:03.663097941 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:06:03.666398156 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:06:03.672483725 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:06:03.681254153 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:06:03.686067103 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:06:03.699702974 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:06:03.705297782 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:06:03.711325235 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:06:03.714134469 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:06:03.725619278 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:06:03.730294158 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:06:03.734104590 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:06:03.738737760 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:06:03.744495531 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:06:03.747401848 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:06:03.750895146 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:06:03.754655730 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:06:03.760303852 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:06:03.765262101 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:06:03.771717228 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:06:03.778246962 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:06:03.780955096 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:06:03.784483625 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:06:03.787217095 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:06:03.791792034 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:06:03.798118994 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:06:03.805694181 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:06:03.813688311 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:06:03.817256866 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:06:03.820151484 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:06:03.823500458 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:06:03.829910500 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:06:03.832525129 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:06:03.838258601 [INFO] >:  >---> ... ***** Finished processing the user 'mario'. ***** ... <---<
+2021-01-09 12:06:03.843989168 [INFO] >:  Finished processing of all users.
+2021-01-09 12:08:16.489067837 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:08:16.491962313 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:08:16.495452452 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:08:16.500540309 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:08:16.504441805 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:08:16.508200536 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:08:16.512740051 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:08:16.519406255 [DEBUG] >: show_config >: USERNAMES: mario
+2021-01-09 12:08:16.523435438 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:08:16.526429838 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:08:16.536440746 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:16.539234403 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 12:08:16.542451647 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:08:16.547576135 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:08:16.555131706 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:08:16.559422001 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:08:16.566173452 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:08:16.575586769 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:08:16.579103802 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:08:16.585153265 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:08:16.589849500 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:08:16.603204806 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:08:16.606051309 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:08:16.608649221 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:08:16.611780410 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:08:16.616744789 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:08:16.620316900 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:08:16.624266360 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:08:16.627592285 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:08:16.634623164 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:08:16.637641919 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:08:16.640245911 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:08:16.643357380 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:08:16.647122746 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:08:16.652033660 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:08:16.656159846 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:08:16.659635651 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:08:16.667314581 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:08:16.670877508 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:08:16.673867862 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:08:16.676999697 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:08:16.682884352 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:08:16.688772204 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:08:16.693409031 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:08:16.702393176 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:08:16.705997191 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:08:16.709372271 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:16.715730893 [INFO] >:  Finished processing of all users.
+2021-01-09 12:08:42.032768417 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:08:42.036587520 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:08:42.039908405 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:08:42.045881115 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:08:42.051256177 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:08:42.053977268 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:08:42.056874957 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:08:42.060144990 [DEBUG] >: show_config >: USERNAMES: mario luigi
+2021-01-09 12:08:42.067455687 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:08:42.071262503 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:08:42.076206868 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:42.081468562 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 12:08:42.087970271 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:08:42.091678347 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:08:42.096806131 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:08:42.101973456 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:08:42.104759659 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:08:42.114125692 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:08:42.117093719 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:08:42.120886199 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:08:42.124438493 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:08:42.139157644 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:08:42.142746509 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:08:42.146066209 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:08:42.149227268 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:08:42.152107067 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:08:42.156399951 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:08:42.160648378 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:08:42.167890620 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:08:42.170719714 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:08:42.173420905 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:08:42.176598627 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:08:42.179827508 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:08:42.182727258 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:08:42.185855194 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:08:42.190325697 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:08:42.196736272 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:08:42.200371995 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:08:42.204271310 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:08:42.207434878 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:08:42.210528307 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:08:42.217452284 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:08:42.222298291 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:08:42.227493401 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:08:42.235132985 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:08:42.238014581 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:08:42.240904218 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:42.244257638 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:08:42.247981799 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:08:42.250871057 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:42.261466161 [INFO] >:  ***** Starting processing the user 'luigi'. *****
+2021-01-09 12:08:42.268214596 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:08:42.271429975 [DEBUG] >: wrapper_function >: Request to process the user 'luigi'.
+2021-01-09 12:08:42.274108549 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:08:42.277293122 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:08:42.280152782 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:08:42.293788322 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:08:42.301816928 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:08:42.305989566 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:08:42.318029424 [DEBUG] >: check_if_user_is_active >: Checking if the luigi is active.
+2021-01-09 12:08:42.345470402 [DEBUG] >: check_if_user_is_active >: The user luigi expires 'never', which is '' days since Jan 01, 1970.
+2021-01-09 12:08:42.348676453 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 0.
+2021-01-09 12:08:42.351806248 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 0.
+2021-01-09 12:08:42.358694168 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to true.
+2021-01-09 12:08:42.368612252 [INFO] >: check_if_user_processing_is_allowed >: The user 'luigi' was found and is allowed to be processed.
+2021-01-09 12:08:42.371342139 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:08:42.374374447 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:08:42.378173027 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:08:42.381873785 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:08:42.384623991 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:08:42.390061935 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:08:42.399697514 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:08:42.403813007 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:08:42.407009469 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = true.
+2021-01-09 12:08:42.410570657 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:08:42.414788015 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:08:42.418714428 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:08:42.423156169 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:08:42.429034160 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 1
+2021-01-09 12:08:42.436333456 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:08:42.439961884 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:08:42.445759665 [INFO] >: process_user >: Will disable the user 'luigi'.
+2021-01-09 12:08:42.596829833 [INFO] >: process_user >: The user 'luigi' was disabled.
+2021-01-09 12:08:42.600031038 [DEBUG] >: process_user >: process_user end.
+2021-01-09 12:08:42.603871133 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:08:42.607784194 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:08:42.616220785 [INFO] >:  ***** Finished processing the user 'luigi'. *****
+2021-01-09 12:08:42.620125244 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:08:42.623398712 [INFO] >:  Finished processing of all users.
+2021-01-09 12:10:23.741709361 [DEBUG] >: show_config >: Started the script with the following configuration:
+2021-01-09 12:10:23.745907619 [DEBUG] >: show_config >: MODE: disable
+2021-01-09 12:10:23.749002092 [DEBUG] >: show_config >: REMOVE_HOME: false
+2021-01-09 12:10:23.752308284 [DEBUG] >: show_config >: ARCHIVE: false
+2021-01-09 12:10:23.757459211 [DEBUG] >: show_config >: ARCHIVE_FORMAT : gz
+2021-01-09 12:10:23.761633189 [DEBUG] >: show_config >: ARCHIVE_DIR : /archives
+2021-01-09 12:10:23.764991358 [DEBUG] >: show_config >: VERBOSE_LEVEL: 1
+2021-01-09 12:10:23.773201663 [DEBUG] >: show_config >: USERNAMES: mario luigi
+2021-01-09 12:10:23.779123096 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:10:23.782842116 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:10:23.790971820 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:10:23.794890490 [INFO] >:  ***** Starting processing the user 'mario'. *****
+2021-01-09 12:10:23.798106642 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:10:23.804251045 [DEBUG] >: wrapper_function >: Request to process the user 'mario'.
+2021-01-09 12:10:23.807974515 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:10:23.812342589 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:10:23.816379772 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:10:23.829992533 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:10:23.836181524 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:10:23.840192687 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:10:23.843061309 [DEBUG] >: check_if_user_is_active >: Checking if the mario is active.
+2021-01-09 12:10:23.854103855 [DEBUG] >: check_if_user_is_active >: The user mario expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:10:23.860185534 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:10:23.863120965 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:10:23.868788938 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:10:23.873376466 [INFO] >: check_if_user_processing_is_allowed >: The user 'mario' was found and is allowed to be processed.
+2021-01-09 12:10:23.876318289 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:10:23.878991123 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:10:23.882262784 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:10:23.885695439 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:10:23.889182660 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:10:23.893676680 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:10:23.896629476 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:10:23.902523496 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:10:23.906354994 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:10:23.909768984 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:10:23.912357468 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:10:23.915409861 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:10:23.918763907 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:10:23.922786081 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:10:23.927352975 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:10:23.930575217 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:10:23.937187253 [INFO] >: process_user >: No process is available for the user 'mario'. Will continue with the script execution.
+2021-01-09 12:10:23.940335247 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:10:23.943686558 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:10:23.946641315 [INFO] >:  ***** Finished processing the user 'mario'. *****
+2021-01-09 12:10:23.949659585 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:10:23.952940562 [DEBUG] >: resore_defaults >: resore_defaults start.
+2021-01-09 12:10:23.957291866 [DEBUG] >: resore_defaults >: resore_defaults end.
+2021-01-09 12:10:23.962032438 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:10:23.966707901 [INFO] >:  ***** Starting processing the user 'luigi'. *****
+2021-01-09 12:10:23.971847063 [DEBUG] >: wrapper_function >: wrapper_function start.
+2021-01-09 12:10:23.975346622 [DEBUG] >: wrapper_function >: Request to process the user 'luigi'.
+2021-01-09 12:10:23.978546232 [DEBUG] >: wrapper_function >: Calling function check_if_user_processing_is_allowed.
+2021-01-09 12:10:23.981588666 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed start.
+2021-01-09 12:10:23.984507097 [DEBUG] >: check_if_user_processing_is_allowed >: Will find user's id.
+2021-01-09 12:10:23.997554201 [DEBUG] >: check_if_user_processing_is_allowed >: SYS_UID_MAX is 999.
+2021-01-09 12:10:24.004659408 [DEBUG] >: check_if_user_processing_is_allowed >: Calling check_if_user_is_active.
+2021-01-09 12:10:24.008375625 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active start.
+2021-01-09 12:10:24.011453167 [DEBUG] >: check_if_user_is_active >: Checking if the luigi is active.
+2021-01-09 12:10:24.021370868 [DEBUG] >: check_if_user_is_active >: The user luigi expires 'Jan 01, 1970', which is '18000' days since Jan 01, 1970.
+2021-01-09 12:10:24.026234181 [DEBUG] >: check_if_user_is_active >: check_if_user_is_active end with status 1.
+2021-01-09 12:10:24.029411602 [DEBUG] >: check_if_user_processing_is_allowed >: Returned from Calling check_if_user_is_active with status 1.
+2021-01-09 12:10:24.035189251 [INFO] >: check_if_user_processing_is_allowed >: USER_IS_ACTIVE set to false.
+2021-01-09 12:10:24.038667765 [INFO] >: check_if_user_processing_is_allowed >: The user 'luigi' was found and is allowed to be processed.
+2021-01-09 12:10:24.041842399 [INFO] >: check_if_user_processing_is_allowed >: USER_PROCESSING_ALLOWED set to true.
+2021-01-09 12:10:24.044659792 [DEBUG] >: check_if_user_processing_is_allowed >: check_if_user_processing_is_allowed end.
+2021-01-09 12:10:24.048158357 [DEBUG] >: wrapper_function >: Returned from function check_if_user_processing_is_allowed.
+2021-01-09 12:10:24.054998330 [DEBUG] >: wrapper_function >: Calling function process_user.
+2021-01-09 12:10:24.059512763 [DEBUG] >: process_user >: process_user start.
+2021-01-09 12:10:24.063021683 [DEBUG] >: process_user >: Calling infer_process_mode.
+2021-01-09 12:10:24.068244926 [DEBUG] >: infer_process_mode >: infer_process_mode start.
+2021-01-09 12:10:24.074229619 [DEBUG] >: infer_process_mode >: MODE = disable.
+2021-01-09 12:10:24.079246965 [DEBUG] >: infer_process_mode >: USER_IS_ACTIVE = false.
+2021-01-09 12:10:24.084865423 [DEBUG] >: infer_process_mode >: REMOVE_HOME = false.
+2021-01-09 12:10:24.091832569 [DEBUG] >: infer_process_mode >: HOME_REMOVE_ALLOWED = false.
+2021-01-09 12:10:24.095992778 [DEBUG] >: infer_process_mode >: USERS_HOME_EXISTS = false.
+2021-01-09 12:10:24.101597961 [DEBUG] >: infer_process_mode >: ARCHIVE = false.
+2021-01-09 12:10:24.106076439 [INFO] >: infer_process_mode >: PROCESS_MODE inferred: 0
+2021-01-09 12:10:24.109488556 [DEBUG] >: infer_process_mode >: infer_process_mode end.
+2021-01-09 12:10:24.112332737 [DEBUG] >: process_user >: Returned from infer_process_mode.
+2021-01-09 12:10:24.115824526 [INFO] >: process_user >: No process is available for the user 'luigi'. Will continue with the script execution.
+2021-01-09 12:10:24.119188423 [DEBUG] >: wrapper_function >: Returned from function process_user.
+2021-01-09 12:10:24.123276398 [DEBUG] >: wrapper_function >: wrapper_function end.
+2021-01-09 12:10:24.128554532 [INFO] >:  ***** Finished processing the user 'luigi'. *****
+2021-01-09 12:10:24.131652072 [INFO] >:  ---------------------------------------------------
+2021-01-09 12:10:24.137982623 [INFO] >:  Finished processing of all users.
+2021-01-09 12:10:24.141299832 [INFO] >:  Exiting script.

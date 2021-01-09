@@ -1,0 +1,1 @@
+In this directory you'll find notes about Linux Bash Shell scripting
