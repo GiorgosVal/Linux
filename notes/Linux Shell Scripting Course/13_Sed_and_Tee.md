@@ -235,3 +235,45 @@ User httpd
 # Group to run service as.
 Group httpd
 ```
+
+-----
+# The `tee` command
+The `tee` command reads from STDIN and writes to STDOUT and to files.<br>
+Usage:<br>
+`tee [OPTION]... [FILE]...`
+
+Very useful option is:
+- `a`: append to the given FILEs, do not overwrite
+
+Example:
+
+Let's say we want to append to the `/etc/hosts`:
+```bash
+# initial content
+$ cat /etc/hosts
+# output
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.1.1 admin01 admin01
+
+# we append with tee
+echo "10.9.8.11 server01" | sudo tee -a /etc/hosts
+echo "10.9.8.12 server02" | sudo tee -a /etc/hosts
+
+# new content
+$ cat /etc/hosts
+# output
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.1.1 admin01 admin01
+10.9.8.11 server01
+10.9.8.12 server02
+```
+>**Note:** Notice that the above operation would faild if we tried it like:
+>```bash
+>sudo echo "10.9.8.11 server01" >> /etc/hosts
+># output
+>-bash: /etc/hosts: Permission denied
+>```
+>The reason that we execute the `echo` command with `sudo` but we cannot execute the redirection with `sudo`. This is where the `tee` command comes to solve this.<br>
+><br>

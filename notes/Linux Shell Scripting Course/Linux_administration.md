@@ -220,3 +220,9 @@ It is the configuration file were some options about the login are defined, like
 - **SYS_GID_MAX:** Max value for system gid
 - **CREATE_HOME:** If useradd should create home directories for users by default
 - and more...
+
+---
+
+## See processes
+### The `ps` command
+`ps -ef` : see every process on the system
