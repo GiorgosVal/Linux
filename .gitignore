@@ -3,5 +3,3 @@
 *.code-workspace
 **/.vagrant/
 **/myscripts/ignore
-**/localusers
-notes/Linux Shell Scripting Course/localusers/*
